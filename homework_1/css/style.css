@@ -1,0 +1,87 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.wrapper {
+    background-image: url('../images/фон.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-bottom:  150px;
+}
+
+.nav {
+    padding-top: 46px;
+    display: flex;
+}
+
+.logo {
+    margin-right: 34px;
+}
+
+.list-item {
+    display: flex;
+    align-self: center;
+    padding-top: 30px;
+}
+
+.list-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list-item li + li {
+    margin-left: 25px;
+}
+
+/*slider*/
+.slider {
+    max-width: 960px;
+}
+
+.slider-title {
+    font-size: 100px;
+    color: #fff;
+}
+
+.slider-text {
+    font-size: 36px;
+    max-width: 674px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.slick-dots {
+    padding-top: 46px;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    border: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+}
