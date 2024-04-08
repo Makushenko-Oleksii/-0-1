@@ -250,7 +250,7 @@
     background-image: url('../images/dog.jpeg');
     background-repeat: no-repeat;
     background-size: 50%;
-    background-position: left bottom;
+    background-position: left 82%;
 }
 
 .magic__inner{
@@ -265,4 +265,8 @@
 
 .magic__text p {
     margin-bottom: 25px;
+}
+
+.portfolio__top {
+    display:flex;
 }
