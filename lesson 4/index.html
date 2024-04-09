@@ -190,42 +190,42 @@
                 Portfolio
             </h2>
             <div class="portfolio__filter-btn">
-                <button class="portfolio__btn">ALL</button>
-                <button class="portfolio__btn">BRANDING</button>
-                <button class="portfolio__btn">DESIGN</button>
-                <button class="portfolio__btn">PHOTOGRAPHY</button>
-                <button class="portfolio__btn">ILLUSTRATION</button>
+                <button class="portfolio__btn" data-filter="all">ALL</button>
+                <button class="portfolio__btn" data-filter=".category-a">BRANDING</button>
+                <button class="portfolio__btn" data-filter=".category-b">DESIGN</button>
+                <button class="portfolio__btn" data-filter=".category-c">PHOTOGRAPHY</button>
+                <button class="portfolio__btn" data-filter=".category-d">ILLUSTRATION</button>
             </div>
         </div>
     </div>
 
     <!--portfolio__content-->
     <div class="portfolio__content">
-        <div class="portfolio__item">
+        <div class="portfolio__item mix category-a">
             <img src="images/portfolio/1.jpeg" alt="portfolio images">
         </div>
-        <div class="portfolio__item">
+        <div class="portfolio__item mix category-a">
             <img src="images/portfolio/2.jpeg" alt="portfolio images">
         </div>
-        <div class="portfolio__item">
+        <div class="portfolio__item mix category-b">
             <img src="images/portfolio/3.jpeg" alt="portfolio images">
         </div>
-        <div class="portfolio__item">
+        <div class="portfolio__item mix category-b">
             <img src="images/portfolio/4.jpeg" alt="portfolio images">
         </div>
-        <div class="portfolio__item">
+        <div class="portfolio__item mix category-c">
             <img src="images/portfolio/5.jpeg" alt="portfolio images">
         </div>
-        <div class="portfolio__item">
+        <div class="portfolio__item mix category-c">
             <img src="images/portfolio/6.jpeg" alt="portfolio images">
         </div>
-        <div class="portfolio__item">
+        <div class="portfolio__item mix category-c">
             <img src="images/portfolio/7.jpeg" alt="portfolio images">
         </div>
-        <div class="portfolio__item">
+        <div class="portfolio__item mix category-d">
             <img src="images/portfolio/8.jpeg" alt="portfolio images">
         </div>
-        <div class="portfolio__item">
+        <div class="portfolio__item mix category-d">
             <img src="images/portfolio/9.jpeg" alt="portfolio images">
         </div>
     </div>
@@ -235,7 +235,7 @@
         <span class="blockquote__author">Крис Броган</span>
     </blockquote>
     <div class="portfolio__video">
-        <a class="portfolio__vedeo-link" href="">
+        <a class="portfolio__video-link" href="">
             <img src="./images/play.svg" alt="play icon">
         </a>
     </div>
@@ -268,6 +268,7 @@
         </div>
     </div>
 </section>
+<script src="js/mixitup.min.js"></script>
 <script src="./js/main.js"></script>
 </body>
 </html>
