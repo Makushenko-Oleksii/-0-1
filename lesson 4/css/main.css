@@ -285,6 +285,32 @@
 
 .portfolio__item {
     margin-bottom: 23px;
+    position: relative;
+}
+
+.portfolio__item-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    color: #fff;
+    background-color: #4C4A4A;
+    border: 12px solid #666565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.portfolio__item-link:hover {
+    opacity: 1;
 }
 
 .portfolio__item img {
@@ -293,7 +319,7 @@
 
 .portfolio__add {
     display: block;
-    font-family: Montserrat;
+    font-family: var(--second-family);
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
@@ -304,7 +330,6 @@
     margin: 72px 0 130px;
     text-transform: uppercase;
     padding: 42px 15px 41px;
-    margin-bottom: 130px;
 }
 
 .blockquote {
@@ -334,12 +359,6 @@
     padding: 0 4px 5px;
 }
 
-.portfolio__btn::after {
-
-}
-
-
-
 .blockquote__author {
     display: block;
     margin-top: 50px;
@@ -351,7 +370,7 @@
 }
 
 .portfolio__video {
-    background-image: url('../images/video_bg.jpeg');
+    background-image: url('../images/img.png');
     height: 324px;
     background-repeat: no-repeat;
     background-size: cover;
