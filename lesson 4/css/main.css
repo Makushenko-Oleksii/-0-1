@@ -401,3 +401,10 @@
     line-height: 19px;
     color: #333333;
 }
+
+/*slider*/
+
+.slider-blog {
+    background-color: #F6F8FA;
+    padding: 115px 0;
+}
