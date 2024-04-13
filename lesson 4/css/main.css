@@ -465,13 +465,14 @@
     padding: 0;
     cursor: pointer;
     position: absolute;
-    top:50%;
+    top: 50%;
     transform: translateY(-150%);
 }
 
 .slick-prev {
     left: -95px;
 }
+
 .slick-next {
     right: -95px;
 }
@@ -505,4 +506,15 @@
     font-size: 12px;
     line-height: 16px;
     color: #373A39;
+}
+
+/*pricing*/
+
+.pricing {
+    background-color: #F6F8FA;
+    padding: 145px 0 160px;
+}
+
+.pricing__title {
+    margin-bottom: 90gipx;
 }
