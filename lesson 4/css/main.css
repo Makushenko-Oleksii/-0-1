@@ -516,5 +516,19 @@
 }
 
 .pricing__title {
-    margin-bottom: 90gipx;
+    margin-bottom: 90px;
+}
+
+.pricing__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__item {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.pricing__item li {
+
 }
