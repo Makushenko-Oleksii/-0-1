@@ -696,18 +696,21 @@ a.go-top {
     line-height: 16px;
 }
 
-/*адаптив*/
-@media (min-width: 768px){
-    .menu__btn {
-        display: none;
-    }
+.menu__btn {
+    display: none;
 }
 
-
+/*адаптив*/
 
 @media (max-width: 768px) {
     .menu__list {
         display:none;
+    }
+    .menu__btn {
+        display:block;
+        background-color: transparent;
+        border: none;
+        padding: 0;
     }
     .header__title {
         font-size: 50px;
